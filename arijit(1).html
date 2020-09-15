@@ -1,0 +1,22 @@
+<html>
+<head>
+<script>
+
+function myFunction() {
+    var request = new XMLHttpRequest();
+    request.open("GET", "https://hrmr7uuabf.execute-api.us-east-1.amazonaws.com/default/lamFun1", true);
+    request.onload = function() {
+      document.getElementById("enigmaDiv").innerHTML = request.responseText;
+    }
+    request.send();
+}
+</script>
+</head>
+
+<body><div align="center"><br><br><br><br>
+<h1>Click below button to call API gatway which in turn calls lambda function and display result below!</h1>
+<h1><div id="enigmaDiv"></div></h1>
+<button onclick="myFunction()">Click Please</button><br>
+<img src="https://ayantbuc.s3.amazonaws.com/Night-Rod-HD.jpg"></div>
+</body>
+</html>
