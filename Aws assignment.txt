@@ -1,0 +1,22 @@
+Assignment 1--
+
+There is a organization having following structure --
+
+1> HR 
+2>Admin
+3>Production
+4>Manager
+
+Please create aws users with proper user pollicy and implementation using GUI mode as well as aws Cli mode (from cli mode create same strategy
+from your created ec2 also as you would create from your own computer as well).
+
+Rules:--
+one user having full access for Admin
+
+one user having only ec2 and Iam access for Manager
+
+one user having full ec2 access for Production
+
+one user full access for S3 for HR 
+
+Make sure to create group and associate the pollicy to them and then attach users to group. 
