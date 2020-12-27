@@ -13,3 +13,9 @@ tomcat Install
 wget tomcat link address from official tomcat download page
 
 tar -xvf downloaded tomcat tar file name
+
+How to Unzip files
+-------------------
+sudo apt-get install zip unzip
+
+unzip yourfile.zip
